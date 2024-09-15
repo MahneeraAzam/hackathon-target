@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 40;
+    background-color: #b38a8a;
+}
+
+.form-container, #resume-output {
+    max-width: 650px;
+    margin: 0 auto;
+    background-color: rgb(242, 209, 209);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2 5px rgba(44, 44, 44, 0.3);
+    text-decoration: underline solid;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20;
+}
+
+h2{
+    margin-top: 40px;
+    margin-bottom: 15;
+}
+
+.input-group{
+    margin-bottom: 15px;
+}
+
+.input-group label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.input-group input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+#generateResumeBtn{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#generateResumeBtn:hover{
+    background-color: rgb(165, 14, 230);
+    transform: scale(1.01);
+}
+
+fieldset {
+    padding: 20px;
+    margin-bottom: 10px;
+    /* border: 1px solid #ddd; */
+    border-radius: 10px;
+}
+
+legend {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#profilePic{
+    font-size: 16px;
+}
+
+
+/* form {
+    display: flex;
+    flex-direction: column;
+}
+ */
+
+/* 
+label {
+    margin: 5px 0;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#resume-output section {
+    margin-bottom: 20px;
+}
+
+ul {
+    padding-left: 20px;
+} */
